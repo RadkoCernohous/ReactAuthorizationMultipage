@@ -58,7 +58,7 @@ const router = createBrowserRouter([
             path: 'new',
             element: <NewEventPage />,
             action: manipulateEventAction,
-            loader:checkAuthLoader
+            loader:checkAuthLoader,
           },
         ],
       },
